@@ -4,21 +4,21 @@
 }
 
 .tudo{
-    width: 340px;
-    height: 440px;
+    width: 400px;
+    height: 500px;
     margin: 20px auto;
   border: 1px solid black;
 }
 
 .foto{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
   border: 1px solid black;
   padding: 10px;
 }
 
 .Botao{
-    width: 110;
+    width: 140px;
     height: 20px;
     margin-top: 0px;
   border: 1px solid black;
@@ -26,20 +26,28 @@
 }
 
 .linha{
-    width: 100%;
+    width: 385px;
     height: 20px;
   border: 1px solid black;
 }
 
 .p{
-    width: 100%;
+    width: 382px;
    padding: 5px;
   border: 1px solid black;
 }
 
+.primeiro {
+  margin-bottom: 40px
+}
+
+.segundo {
+  margin-top: 20px;
+}
+
 .caixas{
     margin-top: 10px;
-    display: flex;
+    display: block;
 }
 
 .c{
@@ -48,4 +56,11 @@
     margin-right: 5px;
     padding: 5px;
     border: 1px solid black;
+    display: inline-block;
+}
+
+footer {
+  margin: 10px 20px 30px 40px;
+  border: 1px solid black;
+  padding: 5px;
 }
